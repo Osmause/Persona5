@@ -1,0 +1,30 @@
+@import url('/assets/css/Variable.css');
+
+footer {
+    margin-top: 5%;
+    padding: 5%;
+    background: var(--darknight);
+    display: flex;
+    flex-direction: column;
+    gap: 50px
+
+}
+
+.category-footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.section-ftr ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.category, .cty, .copy {
+    color: var(--whitediamond)
+}
+
+.copyright{
+   align-self: center;
+}
