@@ -1,0 +1,92 @@
+@import url('/assets/css/Variable.css');
+
+header{
+    background-color: var(--darknight);
+}
+
+.container-header{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+
+.main-menu{
+    display: none;
+    position: absolute;
+    top: calc(100%);
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: var(--whitediamond);
+    
+}
+
+.menu-burger{
+    display: block;
+    width: 18px;
+    height: 18px;
+}
+
+.menu-close{
+    display: none;
+    width: 18px;
+    height: 18px;
+}
+
+.nav-switch{
+    display: block;
+    height: 100%;
+}
+
+.logo-site{
+    width: 175px;
+}
+
+.logo-header{
+    width: 100%;
+}
+
+.sub-menu{
+    display: flex;
+    padding: 5%;
+    border-bottom: 1px solid var(--abbysalblack);
+  
+}
+
+.sub-menu a{
+      color: var( --abbysalblack) ;
+}
+
+@media only screen and (min-width: 770px) {
+    .container-header{
+        padding: 1%;
+    }
+    .nav-switch{
+        display: none;
+    }
+
+    .main-menu{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+    }
+    .sub{
+        display: flex;
+        gap:20px;
+    }
+    .sub-menu{
+        padding: 0%;
+    }
+    .sub-menu a {
+        color: var(--whitediamond);
+    }
+
+    .sub-menu span{
+        color: var(--whitediamond);
+        cursor: pointer;
+    }
+}
