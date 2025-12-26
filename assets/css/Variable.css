@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+:root{
+    --sun: #ffb521;
+    --darknight: #121212;
+    --new: #ff2160;
+    --racing:#694ead;
+    --adventure: #40abf5;
+    --pinkrate: #ff20ae;
+    --sunrise: #fb6e10;
+    --h1-phone-size: 1.125rem;
+    --h2-phone-size: 0.875rem;
+    --h3-phone-size: 0.75rem;
+    --h1-pc-size: 1.375rem;
+    --h2-pc-size: 1.125rem;
+    --h3-pc-size: 0.875rem;
+
+}
+
+h1 {
+    font-size: var(--h1-phone-size);
+    font-family: 'roboto';
+  
+}
+
+h2 {
+    font-size: var(--h2-phone-size);
+     font-family: 'roboto';
+}
+
+a,
+label,
+input,
+select,
+button,
+textarea,
+p,
+span,li{
+    font-size: var(--h3-phone-size);
+     font-family: 'roboto';
+}
