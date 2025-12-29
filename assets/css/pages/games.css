@@ -1,6 +1,17 @@
 @import url('/assets/css/includes/header.css');
 @import url('/assets/css/includes/footer.css');
 
+.fullcard1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.full {
+    display: flex;
+    gap: 20px;
+}
+
 .card {
     display: flex;
     flex-direction: column;
@@ -18,4 +29,10 @@
 
 .star {
     color: #ffff00;
+}
+
+
+.fullcard2 {
+    display: flex;
+    justify-content: space-between;
 }
