@@ -15,12 +15,75 @@
             <p></p>
         </section>
         <section>
-            <div>
-
-            </div>
-            <div>
-
-            </div>
+            <section>
+                <div>
+                    <img src="" alt="">
+                    <h2></h2>
+                    <p>★ ★ ★ ★ ☆</p>
+                    <p></p>
+                </div>
+                <div>
+                    <img src="" alt="">
+                    <h2></h2>
+                    <p>★ ★ ★ ★ ☆</p>
+                    <p></p>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <img src="" alt="">
+                    <h2></h2>
+                    <p>★ ★ ★ ★ ☆</p>
+                    <p></p>
+                </div>
+                <div>
+                    <img src="" alt="">
+                    <h2></h2>
+                    <p>★ ★ ★ ★ ☆</p>
+                    <p></p>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <img src="" alt="">
+                    <h2></h2>
+                    <p>★ ★ ★ ★ ☆</p>
+                    <p></p>
+                </div>
+                <div>
+                    <img src="" alt="">
+                    <h2></h2>
+                    <p>★ ★ ★ ★ ☆</p>
+                    <p></p>
+                </div>
+            </section>
+            <button>Load More</button>
+        </section>
+        <section>
+            <p>NEW</p>
+            <h2>Recent Reviews</h2>
+            <section>
+                <section>
+                    <img src="" alt="">
+                    <h3></h3>
+                    <p></p>
+                </section>
+                <section>
+                    <img src="" alt="">
+                    <h3></h3>
+                    <p></p>
+                </section>
+                <section>
+                    <img src="" alt="">
+                    <h3></h3>
+                    <p></p>
+                </section>
+                <section>
+                    <img src="" alt="">
+                    <h3></h3>
+                    <p></p>
+                </section>
+            </section>
         </section>
     </main>
     <?php include('./includes/footer.html'); ?>
