@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../asset/css/pages/games.css">
 </head>
 <body>
-    <?php include('./includes/header.html'); ?>
+    <?php include('../includes/header.html'); ?>
     <main>
         <section>
             <img src="../assets/css/img/png/background-persona5.jpg" alt="">
@@ -88,6 +88,6 @@
             </section>
         </section>
     </main>
-    <?php include('./includes/footer.html'); ?>
+    <?php include('../includes/footer.html'); ?>
 </body>
 </html>
