@@ -2,6 +2,7 @@
 
 header{
     background-color: var(--darknight);
+    border-bottom: 5px solid var(--sun);
 }
 
 .container-header{

@@ -1,7 +1,6 @@
 @import url('/assets/css/Variable.css');
 
 footer {
-    margin-top: 5%;
     padding: 5%;
     background: var(--darknight);
     display: flex;

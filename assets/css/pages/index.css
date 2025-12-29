@@ -6,3 +6,249 @@
     padding: 0;
 }
 
+.slide-stage {
+    height: auto;
+}
+
+.item {
+    background-image: url(/assets/css/img/jpg/thumb-1920-888562.jpg);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    padding: 50% 5% 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.new,
+.update,
+.article-prm,
+.promotion,
+.dot,
+.annoucement-news,
+.promo-title,
+.overlay,
+.latest-para,
+.latest-title {
+    color: var(--whitediamond);
+}
+
+.new-article {
+    color: var(--sun);
+    font-size: var(--h1-phone-size);
+}
+
+.read {
+    padding: 5% 10%;
+    float: right;
+    width: fit-content;
+    border-radius: 999px;
+    background-color: var(--sun);
+    color: var(--whitediamond);
+}
+
+.container-dots {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.dot {
+    padding: 2%;
+    border-radius: 100%;
+
+}
+
+.promo {
+    background-color: var(--darknight);
+    padding: 5% 0;
+    overflow: hidden;
+}
+
+.promo-container {
+    white-space: nowrap;
+}
+
+.promo-track {
+    display: inline-flex;
+    align-items: center;
+    gap: 50px;
+    padding-left: 100%;
+    animation: anim-promo 30s linear infinite;
+}
+
+.promo-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.feature-bg {
+    padding: 2% 5%;
+    border-radius: 10px;
+}
+
+.new {
+    background-color: var(--new);
+
+}
+
+.update {
+    background-color: var(--sun);
+}
+
+.article-prm {
+    background-color: var(--article);
+
+}
+
+.promotion {
+    background-color: var(--promotion);
+
+}
+
+@keyframes anim-promo {
+    0% {
+        transform: translate(0);
+    }
+
+    100% {
+        transform: translate(-110%);
+    }
+}
+
+.review {
+    background-color: var(--selectedgray);
+}
+
+.latest {
+    background-color: var(--grayshadow);
+}
+
+.latest-comment {
+    background-color: var(--darkshadow);
+    padding: 5%;
+}
+
+.blog,
+.review,
+.latest {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 5%;
+    align-items: center;
+}
+
+.blog-card,
+.review-card {
+
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.img-presentation {
+    position: relative;
+}
+
+.presentation {
+    width: 100%;
+    object-fit: cover;
+}
+
+.overlay-presentation {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80%;
+    padding: 0 5%;
+}
+
+.feature-bg-review {
+    padding: 6px 12px;
+    border-radius: 999px;
+    width: fit-content;
+    line-height: 1;
+}
+
+.latest {
+    padding: 5%;
+}
+
+.profile {
+    height: 64px;
+
+}
+
+.pic-profile {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.comment {
+    display: flex;
+    gap: 20px;
+}
+
+.latest-comment {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.date-comment {
+    color: var(--sun);
+}
+
+.author {
+    color: var(--selectedgray);
+}
+
+
+/* Responsive */ 
+
+@media only screen and (min-width: 770px) {
+    .item{
+        padding: 10% 5%;
+    }
+
+
+    .read{
+        padding: 2% 5%;
+    }
+
+    .promo{
+        padding: 2% 0;
+    }
+    
+.blog{
+    gap: 40px;
+}
+.review{
+    gap: 40px;
+}
+    .section-container{
+        display: grid;
+        justify-content: center;
+        gap: 10px;
+        grid-template-columns: repeat(auto-fill,minmax(400px, 1fr))
+    }
+}
