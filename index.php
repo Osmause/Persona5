@@ -53,7 +53,7 @@
                         </div>
 
                         <div class="promo-item">
-                            <span class="article feature-bg">Article</span>
+                            <span class="article-prm feature-bg">Article</span>
                             <p class="promo-title">Persona 5 a fait 1millions de ventes en un mois !</p>
                         </div>
 
@@ -66,6 +66,19 @@
                 </div>
             </div>
 
+        </section>
+        <section class="review">
+            <h1>Review</h1>
+            <div class="review-card">
+                <div class="img-presentation">
+                    <img class="presentation" src="/assets/css/img/jpg/Persona-5-Voleurs.jpg" alt="">
+                    <div class="overlay-presentation">
+                        <span class="new feature-bg-review">9.5</span>
+                        <p class="overlay">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <?php include('./includes/footer.html'); ?>

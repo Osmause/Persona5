@@ -28,8 +28,14 @@
     gap: 50px;
 }
 
+.new,
+.update,
+.article-prm,
+.promotion,
+.dot,
 .annoucement-news,
-.promo-title {
+.promo-title,
+.overlay {
     color: var(--whitediamond);
 }
 
@@ -56,7 +62,7 @@
 .dot {
     padding: 2%;
     border-radius: 100%;
-    background-color: var(--whitediamond);
+
 }
 
 .promo {
@@ -77,35 +83,34 @@
     animation: anim-promo 30s linear infinite;
 }
 
-.promo-item{
+.promo-item {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-.feature-bg{
+.feature-bg {
     padding: 2% 5%;
     border-radius: 10px;
 }
 
 .new {
     background-color: var(--new);
-    color: var(--whitediamond);
+
 }
 
-.update{
+.update {
     background-color: var(--sun);
-    color: var(--whitediamond);
 }
 
-.article{
+.article-prm {
     background-color: var(--article);
-    color: var(--whitediamond);
+
 }
 
-.promotion{
+.promotion {
     background-color: var(--promotion);
-    color: var(--whitediamond);
+
 }
 
 @keyframes anim-promo {
@@ -116,4 +121,43 @@
     100% {
         transform: translate(-110%);
     }
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 5%;
+    align-items: center;
+}
+
+.review-card {
+    
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.img-presentation {
+    position: relative;
+}
+
+.presentation {
+    width: 100%;
+    object-fit: cover;
+}
+
+.overlay-presentation {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.feature-bg-review {
+    padding: 6px 12px;
+    border-radius: 999px;
+    width: fit-content;
+    line-height: 1;
 }
