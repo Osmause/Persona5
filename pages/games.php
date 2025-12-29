@@ -10,37 +10,23 @@
     <?php include('./includes/header.html'); ?>
     <main>
         <section>
-            <img src="..\assets\css\img\png\background-persona5.jpg" alt="">
+            <img src="../assets/css/img/png/background-persona5.jpg" alt="">
             <h1>Games reviews</h1>
             <p></p>
         </section>
         <section>
             <section>
-                <div>
-                    <img src="" alt="">
-                    <h2></h2>
+                <div class="card">
+                    <img src="../assets/css/img/png/persona5royal.jpg" alt="">
+                    <h2>Persona 5 Royal</h2>
                     <p>★ ★ ★ ★ ☆</p>
-                    <p></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame. Lorem ipsum <br> dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.</p>
                 </div>
                 <div>
                     <img src="" alt="">
                     <h2></h2>
                     <p>★ ★ ★ ★ ☆</p>
-                    <p></p>
-                </div>
-            </section>
-            <section>
-                <div>
-                    <img src="" alt="">
-                    <h2></h2>
-                    <p>★ ★ ★ ★ ☆</p>
-                    <p></p>
-                </div>
-                <div>
-                    <img src="" alt="">
-                    <h2></h2>
-                    <p>★ ★ ★ ★ ☆</p>
-                    <p></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame. Lorem ipsum <br> dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.</p>
                 </div>
             </section>
             <section>
@@ -48,13 +34,27 @@
                     <img src="" alt="">
                     <h2></h2>
                     <p>★ ★ ★ ★ ☆</p>
-                    <p></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame. Lorem ipsum <br> dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.</p>
                 </div>
                 <div>
                     <img src="" alt="">
                     <h2></h2>
                     <p>★ ★ ★ ★ ☆</p>
-                    <p></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame. Lorem ipsum <br> dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.</p>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <img src="" alt="">
+                    <h2></h2>
+                    <p>★ ★ ★ ★ ☆</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame. Lorem ipsum <br> dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.</p>
+                </div>
+                <div>
+                    <img src="" alt="">
+                    <h2></h2>
+                    <p>★ ★ ★ ★ ☆</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame. Lorem ipsum <br> dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.</p>
                 </div>
             </section>
             <button>Load More</button>
@@ -66,22 +66,22 @@
                 <section>
                     <img src="" alt="">
                     <h3></h3>
-                    <p></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur <br> adipisc ing ipsum dolor sit ame</p>
                 </section>
                 <section>
                     <img src="" alt="">
                     <h3></h3>
-                    <p></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur <br> adipisc ing ipsum dolor sit ame</p>
                 </section>
                 <section>
                     <img src="" alt="">
                     <h3></h3>
-                    <p></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur <br> adipisc ing ipsum dolor sit ame</p>
                 </section>
                 <section>
                     <img src="" alt="">
                     <h3></h3>
-                    <p></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur <br> adipisc ing ipsum dolor sit ame</p>
                 </section>
             </section>
         </section>

@@ -1,2 +1,13 @@
 @import url('/assets/css/includes/header.css');
 @import url('/assets/css/includes/footer.css');
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card img {
+    width: 300px;
+    object-fit: cover;
+}
