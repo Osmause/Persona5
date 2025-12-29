@@ -35,7 +35,9 @@
 .dot,
 .annoucement-news,
 .promo-title,
-.overlay {
+.overlay,
+.latest-para,
+.latest-title {
     color: var(--whitediamond);
 }
 
@@ -124,6 +126,21 @@
 }
 
 .review {
+    background-color: var(--selectedgray);
+}
+
+.latest {
+    background-color: var(--grayshadow);
+}
+
+.latest-comment {
+    background-color: var(--darkshadow);
+    padding: 5%;
+}
+
+.blog,
+.review,
+.latest {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -131,8 +148,9 @@
     align-items: center;
 }
 
+.blog-card,
 .review-card {
-    
+
     border-radius: 10px;
     overflow: hidden;
 }
@@ -153,6 +171,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    height: 80%;
+    padding: 0 5%;
 }
 
 .feature-bg-review {
@@ -160,4 +180,53 @@
     border-radius: 999px;
     width: fit-content;
     line-height: 1;
+}
+
+.latest {
+    padding: 5%;
+}
+
+.profile {
+    height: 64px;
+
+}
+
+.pic-profile {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.comment {
+    display: flex;
+    gap: 20px;
+}
+
+.latest-comment {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.date-comment {
+    color: var(--sun);
+}
+
+.author {
+    color: var(--selectedgray);
+}
+
+
+/* Responsive */ 
+
+@media only screen and (min-width: 770px) {
+    .item{
+        padding: 10% 5%;
+    }
 }
