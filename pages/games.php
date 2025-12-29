@@ -33,7 +33,7 @@
                 <div>
                     <img src="" alt="">
                     <h2></h2>
-                    <p>★ ★ ★ ★ ☆</p>
+                    <p class="star">★ ★ ★ ★ ☆</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame. Lorem ipsum <br> dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.</p>
                 </div>
                 <div>
