@@ -59,7 +59,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame. Lorem ipsum <br> dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.</p>
                 </div>
             </section>
-            <button>Load More</button>
+            <button class="load">Load More</button>
         </section>
         <section>
             <p>NEW</p>
