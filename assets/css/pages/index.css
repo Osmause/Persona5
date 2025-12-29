@@ -229,4 +229,26 @@
     .item{
         padding: 10% 5%;
     }
+
+
+    .read{
+        padding: 2% 5%;
+    }
+
+    .promo{
+        padding: 2% 0;
+    }
+    
+.blog{
+    gap: 40px;
+}
+.review{
+    gap: 40px;
+}
+    .section-container{
+        display: grid;
+        justify-content: center;
+        gap: 10px;
+        grid-template-columns: repeat(auto-fill,minmax(400px, 1fr))
+    }
 }

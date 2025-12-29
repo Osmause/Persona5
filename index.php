@@ -69,6 +69,17 @@
         </section>
         <section class="blog">
             <h1>Blog</h1>
+            <div class="section-container">
+                       <div class="blog-card">
+                <div class="img-presentation">
+                    <img class="presentation" src="/assets/css/img/jpg/Persona-5-Voleurs.jpg" alt="">
+                    <div class="overlay-presentation">
+                        <span class="new feature-bg-review">Nouveau</span>
+                        <p class="overlay">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </p>
+                    </div>
+                </div>
+            </div>
             <div class="blog-card">
                 <div class="img-presentation">
                     <img class="presentation" src="/assets/css/img/jpg/Persona-5-Voleurs.jpg" alt="">
@@ -79,7 +90,7 @@
                     </div>
                 </div>
             </div>
-            <div class="review-card">
+            <div class="blog-card">
                 <div class="img-presentation">
                     <img class="presentation" src="/assets/css/img/jpg/Persona-5-Voleurs.jpg" alt="">
                     <div class="overlay-presentation">
@@ -89,7 +100,7 @@
                     </div>
                 </div>
             </div>
-            <div class="review-card">
+            <div class="blog-card">
                 <div class="img-presentation">
                     <img class="presentation" src="/assets/css/img/jpg/Persona-5-Voleurs.jpg" alt="">
                     <div class="overlay-presentation">
@@ -99,20 +110,12 @@
                     </div>
                 </div>
             </div>
-            <div class="review-card">
-                <div class="img-presentation">
-                    <img class="presentation" src="/assets/css/img/jpg/Persona-5-Voleurs.jpg" alt="">
-                    <div class="overlay-presentation">
-                        <span class="new feature-bg-review">Nouveau</span>
-                        <p class="overlay">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        </p>
-                    </div>
-                </div>
             </div>
         </section>
         <section class="review">
             <h1>Review</h1>
-            <div class="review-card">
+            <div class="section-container">
+                         <div class="review-card">
                 <div class="img-presentation">
                     <img class="presentation" src="/assets/css/img/jpg/Persona-5-Voleurs.jpg" alt="">
                     <div class="overlay-presentation">
@@ -151,6 +154,7 @@
                         </p>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
         <section class="latest">
