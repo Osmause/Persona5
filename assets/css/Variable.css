@@ -24,26 +24,21 @@
 
 }
 
-h1 {
+h1, label, .info-left {
     font-size: var(--h1-phone-size);
     font-family: 'roboto';
 
 }
 
-h2 {
-    font-size: var(--h2-phone-size);
-    font-family: 'roboto';
-}
-
+h2,
 a,
-label,
 input,
 select,
 button,
 textarea,
 p,
 span,
-li {
+li, .info-right {
     font-size: var(--h2-phone-size);
     font-family: 'roboto';
 }
