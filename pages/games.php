@@ -69,23 +69,23 @@
             </div>
             <section class="fullcard2">
                 <section class="card2">
-                    <img src="../assets/css/img/jpg/raidou.jpg" alt="">
+                    <img src="../assets/css/img/jpg/raidou.jpg" alt="Raidou remastered">
                     <h3>Raidou remastered</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur <br> adipisc ing ipsum dolor sit ame</p>
                 </section>
                 <section class="card2">
-                    <img src="../assets/css/img/jpg/persona-5-phantom.jpg" alt="">
+                    <img src="../assets/css/img/jpg/persona-5-phantom.jpg" alt="Persona 5 The Phantom X">
                     <h3>Persona 5 The Phantom X</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur <br> adipisc ing ipsum dolor sit ame</p>
                 </section>
                 <section class="card2">
-                    <img src="" alt="">
-                    <h3></h3>
+                    <img src="../assets/css/img/jpg/persona-5-tactica.jpg" alt="Persona 5 Tactica">
+                    <h3>Persona 5 Tactica</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur <br> adipisc ing ipsum dolor sit ame</p>
                 </section>
                 <section class="card2">
-                    <img src="" alt="">
-                    <h3></h3>
+                    <img src="../assets/css/img/jpg/etrianodyssey2.jpg" alt="Etrian Odyssey 2">
+                    <h3>Etrian Odyssey 2</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur <br> adipisc ing ipsum dolor sit ame</p>
                 </section>
             </section>
