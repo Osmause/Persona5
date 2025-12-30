@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../asset/css/pages/games.css">
+    <link rel="stylesheet" href="/assets/css/pages/games.css">
 </head>
 <body>
     <?php include('../includes/header.html'); ?>
     <main>
-        <section>
-            <img src="../assets/css/img/png/background-persona5.jpg" alt="">
+        <section class="hero">
             <div>
                 <h1>Games reviews</h1>
-                <p></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec <br>malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum.</p>
             </div>
         </section>
         <section class="fullcard1">
@@ -25,8 +24,8 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame. Lorem ipsum <br> dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.</p>
                 </div>
                 <div class="card">
-                    <img src="" alt="">
-                    <h2></h2>
+                    <img src="../assets/css/img/png/persona4golden.jpg" alt="">
+                    <h2>Persona 4 golden</h2>
                     <p class="star">★ ★ ★ ★ ☆</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame. Lorem ipsum <br> dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.</p>
                 </div>
@@ -59,11 +58,15 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame. Lorem ipsum <br> dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.</p>
                 </div>
             </section>
-            <button class="load">Load More</button>
+            <div class="display-load">
+                <button class="load">Load More</button>
+            </div>
         </section>
         <section>
-            <p>NEW</p>
-            <h2>Recent Reviews</h2>
+            <div class="new">
+                <p>NEW</p>
+                <h2>Recent Reviews</h2>
+            </div>
             <section class="fullcard2">
                 <section>
                     <img src="" alt="">
