@@ -79,20 +79,38 @@ body {
 }
 
 .load {
-    background-color: #ffff00;
+    background-color: #ffb320;
     border-radius: 10px;
     cursor: pointer;
     width: 10%;
+    border: none;
 }
 
 .new {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .fullcard2 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 50px;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    width: 70%;
+}
+
+.card2 img {
+    width: 80%;
+    height: 300px;
+    object-fit: cover;
 }

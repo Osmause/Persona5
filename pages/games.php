@@ -62,28 +62,28 @@
                 <button class="load">Load More</button>
             </div>
         </section>
-        <section>
+        <section class="hero2">
             <div class="new">
                 <p>NEW</p>
                 <h2>Recent Reviews</h2>
             </div>
             <section class="fullcard2">
-                <section>
+                <section class="card2">
+                    <img src="../assets/css/img/jpg/raidou.jpg" alt="">
+                    <h3>Raidou remastered</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur <br> adipisc ing ipsum dolor sit ame</p>
+                </section>
+                <section class="card2">
+                    <img src="../assets/css/img/jpg/persona-5-phantom.jpg" alt="">
+                    <h3>Persona 5 The Phantom X</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur <br> adipisc ing ipsum dolor sit ame</p>
+                </section>
+                <section class="card2">
                     <img src="" alt="">
                     <h3></h3>
                     <p>Lorem ipsum dolor sit amet, consectetur <br> adipisc ing ipsum dolor sit ame</p>
                 </section>
-                <section>
-                    <img src="" alt="">
-                    <h3></h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur <br> adipisc ing ipsum dolor sit ame</p>
-                </section>
-                <section>
-                    <img src="" alt="">
-                    <h3></h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur <br> adipisc ing ipsum dolor sit ame</p>
-                </section>
-                <section>
+                <section class="card2">
                     <img src="" alt="">
                     <h3></h3>
                     <p>Lorem ipsum dolor sit amet, consectetur <br> adipisc ing ipsum dolor sit ame</p>
