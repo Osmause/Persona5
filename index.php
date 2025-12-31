@@ -70,91 +70,99 @@
         <section class="blog">
             <h1>Blog</h1>
             <div class="section-container">
-                       <div class="blog-card">
-                <div class="img-presentation">
-                    <img class="presentation" src="/assets/css/img/jpg/Persona-5-Voleurs.jpg" alt="">
-                    <div class="overlay-presentation">
-                        <span class="new feature-bg-review">Nouveau</span>
-                        <p class="overlay">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        </p>
+                <div class="blog-card">
+                    <div class="img-presentation">
+                        <img class="presentation" src="/assets/css/img/jpg/Persona-5-Voleurs.jpg" alt="">
+                        <div class="overlay-presentation">
+                            <span class="new feature-bg-review">Nouveau</span>
+                            <p class="overlay">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="blog-card">
-                <div class="img-presentation">
-                    <img class="presentation" src="/assets/css/img/jpg/Persona-5-Voleurs.jpg" alt="">
-                    <div class="overlay-presentation">
-                        <span class="new feature-bg-review">Nouveau</span>
-                        <p class="overlay">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        </p>
+                <div class="blog-card">
+                    <div class="img-presentation">
+                        <img class="presentation" src="/assets/css/img/jpg/Persona-5-Voleurs.jpg" alt="">
+                        <div class="overlay-presentation">
+                            <span class="new feature-bg-review">Nouveau</span>
+                            <p class="overlay">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="blog-card">
-                <div class="img-presentation">
-                    <img class="presentation" src="/assets/css/img/jpg/Persona-5-Voleurs.jpg" alt="">
-                    <div class="overlay-presentation">
-                        <span class="new feature-bg-review">Nouveau</span>
-                        <p class="overlay">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        </p>
+                <div class="blog-card">
+                    <div class="img-presentation">
+                        <img class="presentation" src="/assets/css/img/jpg/Persona-5-Voleurs.jpg" alt="">
+                        <div class="overlay-presentation">
+                            <span class="new feature-bg-review">Nouveau</span>
+                            <p class="overlay">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="blog-card">
-                <div class="img-presentation">
-                    <img class="presentation" src="/assets/css/img/jpg/Persona-5-Voleurs.jpg" alt="">
-                    <div class="overlay-presentation">
-                        <span class="new feature-bg-review">Nouveau</span>
-                        <p class="overlay">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        </p>
+                <div class="blog-card">
+                    <div class="img-presentation">
+                        <img class="presentation" src="/assets/css/img/jpg/Persona-5-Voleurs.jpg" alt="">
+                        <div class="overlay-presentation">
+                            <span class="new feature-bg-review">Nouveau</span>
+                            <p class="overlay">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
             </div>
         </section>
         <section class="review">
             <h1>Review</h1>
             <div class="section-container">
-                         <div class="review-card">
-                <div class="img-presentation">
-                    <img class="presentation" src="/assets/css/img/jpg/Persona-5-Voleurs.jpg" alt="">
-                    <div class="overlay-presentation">
-                        <span class="new feature-bg-review">9.5</span>
-                        <p class="overlay">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        </p>
+                <div class="review-card">
+                    <div class="img-presentation">
+                        <img class="presentation" src="/assets/css/img/jpg/Persona-5-Voleurs.jpg" alt="">
+                        <div class="overlay-presentation">
+                            <span class="new feature-bg-review">9.5</span>
+                            <p class="overlay">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="review-card">
-                <div class="img-presentation">
-                    <img class="presentation" src="/assets/css/img/jpg/Persona-5-Voleurs.jpg" alt="">
-                    <div class="overlay-presentation">
-                        <span class="new feature-bg-review">4.5</span>
-                        <p class="overlay">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        </p>
+                <div class="review-card">
+                    <div class="img-presentation">
+                        <img class="presentation" src="/assets/css/img/jpg/Persona-5-Voleurs.jpg" alt="">
+                        <div class="overlay-presentation">
+                            <span class="new feature-bg-review">4.5</span>
+                            <p class="overlay">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="review-card">
-                <div class="img-presentation">
-                    <img class="presentation" src="/assets/css/img/jpg/Persona-5-Voleurs.jpg" alt="">
-                    <div class="overlay-presentation">
-                        <span class="new feature-bg-review">7.5</span>
-                        <p class="overlay">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        </p>
+                <div class="review-card">
+                    <div class="img-presentation">
+                        <img class="presentation" src="/assets/css/img/jpg/Persona-5-Voleurs.jpg" alt="">
+                        <div class="overlay-presentation">
+                            <span class="new feature-bg-review">7.5</span>
+                            <p class="overlay">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="review-card">
-                <div class="img-presentation">
-                    <img class="presentation" src="/assets/css/img/jpg/Persona-5-Voleurs.jpg" alt="">
-                    <div class="overlay-presentation">
-                        <span class="new feature-bg-review">10</span>
-                        <p class="overlay">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        </p>
+                <div class="review-card">
+                    <div class="img-presentation">
+                        <img class="presentation" src="/assets/css/img/jpg/Persona-5-Voleurs.jpg" alt="">
+                        <div class="overlay-presentation">
+                            <span class="new feature-bg-review">10</span>
+                            <p class="overlay">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
             </div>
         </section>
         <section class="latest">
@@ -169,41 +177,45 @@
                         </div>
                         <div class="information">
                             <span class="date-comment">21 Juin 2025</span>
-                            <p class="latest-para">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <p class="latest-para">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.</p>
                             <span class="author">By Admin</span>
                         </div>
                     </div>
                 </div>
-                 <div class="comment">
-                        <div class="profile">
-                            <img class="pic-profile" src="/assets/css/img/jpg/Persona-5-Voleurs.jpg" alt="">
-                        </div>
-                        <div class="information">
-                            <span class="date-comment">21 Juin 2025</span>
-                            <p class="latest-para">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <span class="author">By Admin</span>
-                        </div>
+                <div class="comment">
+                    <div class="profile">
+                        <img class="pic-profile" src="/assets/css/img/jpg/Persona-5-Voleurs.jpg" alt="">
                     </div>
-                     <div class="comment">
-                        <div class="profile">
-                            <img class="pic-profile" src="/assets/css/img/jpg/Persona-5-Voleurs.jpg" alt="">
-                        </div>
-                        <div class="information">
-                            <span class="date-comment">21 Juin 2025</span>
-                            <p class="latest-para">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <span class="author">By Admin</span>
-                        </div>
+                    <div class="information">
+                        <span class="date-comment">21 Juin 2025</span>
+                        <p class="latest-para">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry.</p>
+                        <span class="author">By Admin</span>
                     </div>
-                     <div class="comment">
-                        <div class="profile">
-                            <img class="pic-profile" src="/assets/css/img/jpg/Persona-5-Voleurs.jpg" alt="">
-                        </div>
-                        <div class="information">
-                            <span class="date-comment">21 Juin 2025</span>
-                            <p class="latest-para">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <span class="author">By Admin</span>
-                        </div>
+                </div>
+                <div class="comment">
+                    <div class="profile">
+                        <img class="pic-profile" src="/assets/css/img/jpg/Persona-5-Voleurs.jpg" alt="">
                     </div>
+                    <div class="information">
+                        <span class="date-comment">21 Juin 2025</span>
+                        <p class="latest-para">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry.</p>
+                        <span class="author">By Admin</span>
+                    </div>
+                </div>
+                <div class="comment">
+                    <div class="profile">
+                        <img class="pic-profile" src="/assets/css/img/jpg/Persona-5-Voleurs.jpg" alt="">
+                    </div>
+                    <div class="information">
+                        <span class="date-comment">21 Juin 2025</span>
+                        <p class="latest-para">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry.</p>
+                        <span class="author">By Admin</span>
+                    </div>
+                </div>
             </div>
         </section>
     </main>

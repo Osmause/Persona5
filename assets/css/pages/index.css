@@ -150,9 +150,35 @@
 
 .blog-card,
 .review-card {
-
     border-radius: 10px;
     overflow: hidden;
+    cursor: pointer;
+    transition:
+        transform 0.60s ease,
+        filter 0.60s ease;
+        
+}
+
+.blog-card:hover {
+    transform: translateY(-15px);
+    box-shadow: 1px 5px 10px var(--darknight);
+    border: 1px solid var(--sun);
+}
+
+.blog-card:hover img {
+    transform: scale(1.1);
+    filter: brightness(0.6);
+}
+
+.review-card:hover{
+    transform: translate((-15px));
+    box-shadow: 1px 5px 10px var(--darknight);
+    border: 1px solid var(--sun);
+}
+
+.review-card:hover img{
+    transform: scale(1.1);
+    filter: brightness(0.6);
 }
 
 .img-presentation {
@@ -162,6 +188,9 @@
 .presentation {
     width: 100%;
     object-fit: cover;
+    transition:
+        transform 0.60s ease,
+        filter 0.60s ease;
 }
 
 .overlay-presentation {
@@ -209,11 +238,12 @@
     gap: 20px;
 }
 
-.information{
+.information {
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
+
 .date-comment {
     color: var(--sun);
 }
@@ -223,32 +253,34 @@
 }
 
 
-/* Responsive */ 
+/* Responsive */
 
 @media only screen and (min-width: 770px) {
-    .item{
+    .item {
         padding: 10% 5%;
     }
 
 
-    .read{
+    .read {
         padding: 2% 5%;
     }
 
-    .promo{
+    .promo {
         padding: 2% 0;
     }
-    
-.blog{
-    gap: 40px;
-}
-.review{
-    gap: 40px;
-}
-    .section-container{
+
+    .blog {
+        gap: 40px;
+    }
+
+    .review {
+        gap: 40px;
+    }
+
+    .section-container {
         display: grid;
         justify-content: center;
         gap: 10px;
-        grid-template-columns: repeat(auto-fill,minmax(400px, 1fr))
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr))
     }
 }
