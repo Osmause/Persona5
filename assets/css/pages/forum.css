@@ -94,5 +94,22 @@ body {
 }
 
 @media (max-width: 770px) {
-    
+    .hero {
+        background-position: right;
+        padding: 90px 20px;
+    }
+
+    .all-member {
+        display: flex;
+        justify-content: center;
+        gap: 400px;
+    }
+
+    .forum-message {
+        margin-left: 75px;
+    }
+
+    .forum-pages {
+        margin-left: 75px;
+    }
 }

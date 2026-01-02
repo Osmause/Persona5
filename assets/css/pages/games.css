@@ -148,6 +148,7 @@ body {
 @media (max-width: 770px) {
     .hero {
         width: 770px;
+        background-position: right;
     }
 
     .full {
