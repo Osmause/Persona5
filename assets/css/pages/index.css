@@ -28,31 +28,12 @@
     gap: 50px;
 }
 
-.new,
-.update,
-.article-prm,
-.promotion,
-.dot,
-.annoucement-news,
-.promo-title,
-.overlay,
-.latest-para,
-.latest-title {
-    color: var(--whitediamond);
-}
-
-.new-article {
-    color: var(--sun);
-    font-size: var(--h1-phone-size);
-}
 
 .read {
     padding: 5% 10%;
     float: right;
     width: fit-content;
     border-radius: 999px;
-    background-color: var(--sun);
-    color: var(--whitediamond);
 }
 
 .container-dots {
@@ -68,7 +49,6 @@
 }
 
 .promo {
-    background-color: var(--darknight);
     padding: 5% 0;
     overflow: hidden;
 }
@@ -96,24 +76,7 @@
     border-radius: 10px;
 }
 
-.new {
-    background-color: var(--new);
 
-}
-
-.update {
-    background-color: var(--sun);
-}
-
-.article-prm {
-    background-color: var(--article);
-
-}
-
-.promotion {
-    background-color: var(--promotion);
-
-}
 
 @keyframes anim-promo {
     0% {
@@ -122,19 +85,71 @@
 
     100% {
         transform: translate(-110%);
+        /* Joue l'animation et sort de l'écran pour revenir au début */
     }
 }
 
-.review {
-    background-color: var(--selectedgray);
+.container-tournament {
+    display: flex;
+    flex-direction: column;
 }
 
-.latest {
-    background-color: var(--grayshadow);
+.tournament {
+    padding: clamp(40px, 8vw, 120px) 5%;
+    /* Padding responsive, On veut minimum 40px pour les petits écran, 8vw pour s'adapter à la largeur de l'écran, maximum 120px pour éviter un espace trop grand sur les grand écrans,clamp permet de mettre la valeur haut bas & le 5% droite gauche. */
 }
+
+.block-tournament {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 20px;
+}
+
+.content {
+    padding: 10%;
+}
+
+.content-tournament {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content-information {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container-information {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.tournament-title {
+    padding: 2% 5%;
+    width: fit-content;
+}
+
+.category-tournament {
+
+    flex-direction: column;
+    padding: 2% 5%;
+    width: fit-content;
+
+}
+
+.categoryIMG {
+    background-image: url(/assets/css/img/jpg/Persona-5-Strikers-PS4-Wallpapers-01.jpg);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    padding: 50%;
+}
+
 
 .latest-comment {
-    background-color: var(--darkshadow);
     padding: 5%;
 }
 
@@ -156,7 +171,7 @@
     transition:
         transform 0.60s ease,
         filter 0.60s ease;
-        
+
 }
 
 .blog-card:hover {
@@ -170,13 +185,13 @@
     filter: brightness(0.6);
 }
 
-.review-card:hover{
+.review-card:hover {
     transform: translate((-15px));
     box-shadow: 1px 5px 10px var(--darknight);
     border: 1px solid var(--sun);
 }
 
-.review-card:hover img{
+.review-card:hover img {
     transform: scale(1.1);
     filter: brightness(0.6);
 }
@@ -244,15 +259,6 @@
     gap: 5px;
 }
 
-.date-comment {
-    color: var(--sun);
-}
-
-.author {
-    color: var(--selectedgray);
-}
-
-
 /* Responsive */
 
 @media only screen and (min-width: 770px) {
@@ -282,5 +288,9 @@
         justify-content: center;
         gap: 10px;
         grid-template-columns: repeat(auto-fill, minmax(400px, 1fr))
+    }
+
+    .tournament-title{
+        padding: 1% 3%;
     }
 }
