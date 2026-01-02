@@ -2,12 +2,12 @@
 
 :root {
     --sun: #ffb521;
+    --sunrise: #fb6e10;
     --darknight: #121212;
     --new: #ff2160;
     --racing: #694ead;
     --adventure: #40abf5;
     --pinkrate: #ff20ae;
-    --sunrise: #fb6e10;
     --article: #1f6feb;
     --promotion: #4eae60;
     --redselect: #e60012;
@@ -25,7 +25,12 @@
 
 }
 
-h1, label, .info-left {
+
+
+h1,
+label,
+.info-left,
+.title-category-content {
     font-size: var(--h1-phone-size);
     font-family: 'roboto';
 
@@ -39,7 +44,10 @@ button,
 textarea,
 p,
 span,
-li, .info-right {
+li,
+.info-right,
+.tournament-title,
+.ctr-left {
     font-size: var(--h2-phone-size);
     font-family: 'roboto';
 }
@@ -57,28 +65,132 @@ button {
     cursor: pointer;
 }
 
+
+.text-whitediamond {
+    color: var(--whitediamond);
+}
+
+.text-sun {
+    color: var(--sun);
+}
+
+.text-selectedgray{
+    color: var(--selectedgray);
+}
+
+.bg-sun {
+    background-color: var(--sun);
+}
+
+.bg-sunrise {
+    background-color: var(--sunrise);
+}
+
+.bg-darknight {
+    background-color: var(--darknight);
+}
+
+.bg-new {
+    background-color: var(--new);
+}
+
+.bg-racing {
+    background-color: var(--racing);
+}
+
+.bg-adventure {
+    background-color: var(--adventure);
+}
+
+.bg-pinrate {
+    background-color: var(--pinkrate);
+}
+
+.bg-article {
+    background-color: var(--article);
+}
+
+.bg-promotion{
+    background-color: var(--promotion);
+}
+
+.bg-redselect{
+    background-color: var(--redselect);
+}
+
+.bg-whitediamond{
+    background-color: var(--whitediamond);
+}
+
+.bg-abbysalblack{
+    background-color: var(--abbysalblack);
+}
+
+.bg-selectedgray {
+    background-color: var(--selectedgray);
+}
+
+.bg-grayshadow{
+    background-color: var(--grayshadow);
+}
+
+.bg-darkshadow{
+    background-color: var(--darkshadow);
+}
+
+.text-h1-media {
+    font-size: var(--h1-phone-size);
+    font-family: 'roboto';
+}
+
+.text-h2-media {
+    font-size: var(--h2-phone-size);
+    font-family: 'roboto';
+}
+
+.text-h3-media {
+    font-size: var(--h3-phone-size);
+    font-family: 'roboto';
+}
+
+
+
 @media only screen and (min-width: 770px) {
     h1 {
-    font-size: var(--h1-pc-size);
-  
+        font-size: var(--h1-pc-size);
 
-}
 
-h2 {
-    font-size: var(--h2-pc-size);
-  
-}
+    }
 
-a,
-label,
-input,
-select,
-button,
-textarea,
-p,
-span,
-li {
-    font-size: var(--h2-pc-size);
-    
-}
+    /*Responsive Font*/
+
+    .text-h1-media {
+        font-size: var(--h1-pc-size);
+    }
+
+    .text-h2-media {
+        font-size: var(--h2-pc-size);
+    }
+
+    .text-h3-media {
+        font-size: var(--h3-pc-size);
+    }
+
+    h2 {
+        font-size: var(--h2-pc-size);
+
+    }
+
+    a,
+    label,
+    input,
+    select,
+    button,
+    textarea,
+    p,
+    span,
+    li {
+        font-size: var(--h2-pc-size);
+
+    }
 }
