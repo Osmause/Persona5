@@ -92,3 +92,7 @@ body {
 .forum-pages button:hover {
     background-color: #ffb320;
 }
+
+@media (max-width: 770px) {
+    
+}
