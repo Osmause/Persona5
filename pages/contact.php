@@ -14,8 +14,8 @@
         <section class="descr-page">
             <div class="descr-container">
                 <div class="descr-box">
-                    <h1 class="descr-title">Nous contacter</h1>
-                    <p class="descr-para">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <h1 class="text-whitediamond">Nous contacter</h1>
+                    <p class="text-whitediamond">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </div>
             </div>
         </section>
@@ -23,11 +23,11 @@
             <div class="information">
                 <ul class="information-container">
                     <li class="information-box">
-                        <h1 class="info-left">Adresse</h1>
+                        <h1 class="info-left text-sun">Adresse</h1>
                         <p class="info-right">Sumitomo Fudosan Osaki Garden, Japan</p>
                     </li>
                     <li class="information-box">
-                        <h1 class="info-left">Email</h1>
+                        <h1 class="info-left text-sun">Email</h1>
                         <p class="info-right">contact@atlus.com</p>
                     </li>
                 </ul>
@@ -62,7 +62,7 @@
                     <label for="message">Message</label>
                     <textarea class="btnspace" name="message" id="message" minlength="50" maxlength="1045"
                         placeholder="Ecrivez votre demande" required></textarea>
-                    <button class="btn-submit" type="submit" form="formhelp" value="submit">Envoyer</button>
+                    <button class="btn-submit text-whitediamond bg-sun" type="submit" form="formhelp" value="submit">Envoyer</button>
                 </form>
 
             </div>

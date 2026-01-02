@@ -70,12 +70,17 @@ button {
     color: var(--whitediamond);
 }
 
+
 .text-sun {
     color: var(--sun);
 }
 
 .text-selectedgray{
     color: var(--selectedgray);
+}
+
+.text-abbysalblack{
+    color: var(--abbysalblack);
 }
 
 .bg-sun {
@@ -119,6 +124,10 @@ button {
 }
 
 .bg-whitediamond{
+    background-color: var(--whitediamond);
+}
+
+.bg-whitediamond-main{
     background-color: var(--whitediamond);
 }
 
@@ -192,5 +201,10 @@ button {
     li {
         font-size: var(--h2-pc-size);
 
+    }
+    
+
+    .bg-whitediamond-main{
+        background-color: transparent;
     }
 }

@@ -39,17 +39,10 @@ main {
     gap: 10px;
 }
 
-.descr-title,
-.descr-para {
-    color: var(--whitediamond);
-}
-
 .btn-submit {
-    background-color: var(--sun);
     border: none;
     border-radius: 5px;
     padding: 2%;
-    color: var(--whitediamond);
 }
 
 .btnspace {
@@ -65,7 +58,6 @@ main {
 }
 
 .info-left {
-    color: var(--sun);
     width: 90px;
 }
 

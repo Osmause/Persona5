@@ -1,7 +1,6 @@
 @import url('/assets/css/Variable.css');
 
 header{
-    background-color: var(--darknight);
     border-bottom: 5px solid var(--sun);
 }
 
@@ -20,7 +19,7 @@ header{
     left: 0;
     width: 100%;
     z-index: 999;
-    background-color: var(--whitediamond);
+  
     
 }
 
@@ -56,9 +55,7 @@ header{
   
 }
 
-.sub-menu a{
-      color: var( --abbysalblack) ;
-}
+
 
 @media only screen and (min-width: 770px) {
     .container-header{
@@ -73,8 +70,10 @@ header{
         position: relative;
         justify-content: center;
         align-items: center;
-        background-color: transparent;
+       
     }
+  
+
     .sub{
         display: flex;
         gap:20px;

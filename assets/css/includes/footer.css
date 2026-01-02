@@ -2,7 +2,6 @@
 
 footer {
     padding: 5%;
-    background: var(--darknight);
     display: flex;
     flex-direction: column;
     gap: 50px
@@ -20,9 +19,7 @@ footer {
     flex-direction: column;
     gap: 20px;
 }
-.category, .cty, .copy {
-    color: var(--whitediamond)
-}
+
 
 .copyright{
    align-self: center;
