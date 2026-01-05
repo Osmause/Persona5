@@ -46,9 +46,14 @@ body {
     gap: 700px;
 }
 
+.all-member h2 {
+    margin-top: 10px;
+}
+
 .filter {
     display: flex;
     gap: 10px;
+    margin-top: 10px;
 }
 
 .forum-message {
